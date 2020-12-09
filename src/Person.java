@@ -1,18 +1,10 @@
-import com.sun.xml.internal.txw2.annotation.XmlElement;
-
 import javax.xml.bind.annotation.*;
-import java.util.List;
-
 
 @XmlRootElement(name = "Person")
-//@XmlType(propOrder = {"name", "birthday"})
 @XmlAccessorType(XmlAccessType.FIELD)
 public class Person {
     private String name;
     private String birthday;
-
-    @XmlElementWrapper(name = "Persons")
-    private List<Person> persons;
 
     public Person() {
     }
@@ -38,19 +30,4 @@ public class Person {
         this.birthday = birthday;
     }
 
-    public List<Person> getPersons() {
-        return persons;
-    }
-
-    public void setPersons(List<Person> persons) {
-        this.persons = persons;
-    }
-
-    @Override
-    public String toString() {
-        return "Person {" +
-                "name = '" + name + '\'' +
-                ", birthday = " + birthday +
-                '}';
-    }
 }
