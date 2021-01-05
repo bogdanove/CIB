@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<persons>
+    <person>
+        <name>Ivanova Nina Ivanovna</name>
+        <birthday>2000-12-11</birthday>
+        <hobbies>
+            <hobby>
+                <complexity>1</complexity>
+                <hobby_name>Walking</hobby_name>
+            </hobby>
+        </hobbies>
+    </person>
+    <person>
+        <name>Sidorov Viktor Petrovich</name>
+        <birthday>2002-11-10</birthday>
+        <hobbies>
+            <hobby>
+                <complexity>2</complexity>
+                <hobby_name>Run</hobby_name>
+            </hobby>
+            <hobby>
+                <complexity>3</complexity>
+                <hobby_name>FastRun</hobby_name>
+            </hobby>
+        </hobbies>
+    </person>
+</persons>
